@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test parallel="methods" thread-count="3" verbose="2" preserve-order="true" name="D:/University/4th_year/IS4102 - ASQA/Assignment_2">
+        <classes>
+            <class name="tests.WebDriver">
+                <methods>
+                    <include name="searchCakes"/>
+                    <include name="searchPerfumes"/>
+                    <include name="searchFreshFlowers"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
